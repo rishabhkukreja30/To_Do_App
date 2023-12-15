@@ -1,10 +1,21 @@
 <html>
 <head>
- <title>
- Learn JSP
- </title>
- </head>
- <body>
-Hello ${name} , How are you ?
- </body>
+<title>
+Login Page
+</title>
+</head>
+<body>
+<h3>
+Welcome to Login Page
+</h3>
+<form method="post">
+    <label for="name"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="name" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <button type="submit">Login</button>
+</form>
+</body>
 </html>
