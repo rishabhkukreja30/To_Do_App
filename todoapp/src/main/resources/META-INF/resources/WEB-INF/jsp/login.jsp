@@ -8,6 +8,7 @@ Login Page
 <h3>
 Welcome to Login Page
 </h3>
+<pre>${errorMessage}</pre>
 <form method="post">
     <label for="name"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="name" required>
